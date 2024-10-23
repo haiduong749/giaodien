@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="thermostat-container wrap">
+
+        <div class="side-controls">
+            <button id="humidity-up" class="add-water">
+                <img src="images/arrow-up.png" alt="">
+            </button> 
+            <div class="icon-group">
+                <span class="icon">
+                    <img src="images/water.png" alt="">
+                </span>
+                <div class="dots humidity-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+            <button id="humidity-down" class="sub-water">
+                <img src="images/arrow-down.png" alt="">
+            </button>
+        </div> 
+     
+        <div class="dial">
+            <button id="temperature-up" class="add-temperature">
+                <img src="images/arrow-up.png" >
+            </button> 
+            <div class="txt-control-water">
+                <span id="temperature-value"><input type="text" class="count-temperature-s" readonly value="66">°</span>
+            </div>
+            <div class="avarta-control">
+                <img src="images/control.png" >
+                <div class="txt-control">
+                    <span id="temperature-value"><input type="text" class="count-temperature" readonly value="54">°</span>
+                </div>
+            </div>
+            <button id="temperature-down" class="sub-temperature">
+                <img src="images/arrow-down.png" alt="">
+            </button>
+        </div>
+
+        <div class="side-controls">
+            <button id="fan-up" class="add-fan"><img src="images/arrow-up.png" alt=""></button>
+            <div class="icon-group">
+                <span class="icon">
+                    <img src="images/fan.png" alt="">
+                </span>
+                <div class="dots fan-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+            <button id="fan-down" class="sub-fan"><img src="images/arrow-down.png" alt=""></button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
